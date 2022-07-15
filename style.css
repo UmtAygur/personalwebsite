@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    background-image: url(img/me1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border: width 1px;
+    border-style: none;
+    border-color: none;
+    margin: auto;
+}
+
+#banner{
+    width: 900px;
+    min-height: 100px;
+    border: width 1px;
+    border-style: none;
+    border-color: none;
+    margin: auto;
+}
+
+#logo{
+    width: 96px;
+    height: 80px;
+    border-style: none;
+    border-width: 1px;
+    position: relative;
+    top:10px;
+    left: 10px;
+    float: left;
+  
+}
+
+#sosyal{
+    width: 180px;
+    height: 40px;
+    border-style: none;
+    border-color: none;
+    float: right;
+    position: relative;
+    top:50px;
+    right:10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+
+#anamenu{
+    width: 900px;
+    height: 50px;
+    border-style: none;
+    border-color: none;
+    background-color:none;
+    border-width: 1px;
+    margin-top:25px;
+    margin-bottom: 20px;
+    
+    
+}
+
+#anamenu ul{
+    list-style-type: none;
+    
+
+   
+}
+
+#anamenu ul li{
+    width: 80px;
+    height: 42px;
+    padding: 4px;
+    border-style: none;
+    border-radius: 5px;
+    float: left;
+    margin-left:110px;
+    position: relative;
+   
+}
+#anamenu ul a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+#anamenu ul a:hover{
+    color: rgb(120, 120, 69);
+    text-decoration: underline;
+}
+
+#icerik{
+    width: 646px;
+    min-height: 600px;
+    border-style: none;
+    border-color: none;
+    background-color:none;
+    border-width: 1px;
+    float:left;
+    padding: 2px;
+   
+}
+
+#yanmenu{
+    width: 246px;
+    min-height: 600px;
+    border-style: none;
+    border-color: none;
+    background-color:none;
+    border-width: 1px;
+    float:right;
+    padding: 2px;
+}
+
+.resim{
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+.metin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    
+}
+
+.baslik{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+
+#altmenu{
+    width: 900px;
+    height: 50px;
+    border-style: none;
+    border-color: none;
+    background-color:none;
+    border-width: 1px;
+    margin-top:25px;
+    margin-bottom: 20px;
+    float: left;
+    text-align: center;
+}
+
+#altmenu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin: 3px;
+    text-decoration: none;
+
+
+}
+#altmenu  a:hover{
+    color: rgb(120, 120, 69);
+    text-decoration: underline;
+}
